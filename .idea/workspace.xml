@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fffd0ff-6173-4114-b018-8bf1a432f2e8" name="Changes" comment="Changed front/node_modules -&gt; /node_modules" />
+    <list default="true" id="2fffd0ff-6173-4114-b018-8bf1a432f2e8" name="Changes" comment="Committing front" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691015930624</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Committing front">
+      <option name="closed" value="true" />
+      <created>1691016104866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691016104866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +136,7 @@
     <MESSAGE value="fhrghr" />
     <MESSAGE value="bck" />
     <MESSAGE value="Changed front/node_modules -&gt; /node_modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed front/node_modules -&gt; /node_modules" />
+    <MESSAGE value="Committing front" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing front" />
   </component>
 </project>
