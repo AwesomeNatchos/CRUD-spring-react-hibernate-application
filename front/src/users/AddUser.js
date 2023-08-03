@@ -1,13 +1,13 @@
 import axios from 'axios';
-import { Button } from 'bootstrap'
+
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function AddUser() {
   
   let navigate = useNavigate()
 
-  const [user, userState] = useState({
+  const [user, setUser] = useState({
     name: '',
     username: '',
     address: '',
@@ -17,7 +17,7 @@ export default function AddUser() {
   const {name, username, email, address} = user;
 
   const onInputChange = (e) => {
-    userState({...user, [e.target.name]: e.target.value})
+    setUser({...user, [e.target.name]: e.target.value})
   }
 
   const onSubmit = async (e) =>{
@@ -29,7 +29,7 @@ export default function AddUser() {
 
     
   return (
-    <div className='countainer'>
+    <div className='container'>
       <div className='row'>
       <div className='col-md-6 offset-md-3 border rounded p-4 mt-2 shadow'>
         <h2 className='text-center m-4'> Register User</h2>
@@ -84,8 +84,8 @@ export default function AddUser() {
           />
         </div>
       
-        <button className='btn btn-outline-success mx-3'> Submit </button>
-        <button className='btn btn-outline-danger'> Cancel </button>
+        <button type='submit' className='btn btn-outline-success mx-3'> Submit </button>
+        <Link to='/' className='btn btn-outline-danger'> Cancel </Link>
         </form>
 
 
